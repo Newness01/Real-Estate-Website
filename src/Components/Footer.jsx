@@ -6,9 +6,9 @@ const Footer = () => {
     <div className='pt-10 px-4 md:px-2 lg:px-32 bg-gray-900 w-full overflow-hidden' id='Footer'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
         <div className='w-full md:w-1/3 mb-8 md:mb-0'><img src={assets.logo_dark} alt="" />
-        <p className='text-gray-400 mt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
-           praesentium optio? Facilis, ea dolorum dicta enim reiciendis incidunt 
-          tempore nihil, necessitatibus modi mollitia sunt repudiandae?</p>
+        <p className='text-gray-400 mt-4'>Lorem Ipsum is simply dummy 
+          text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text.</p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
           <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
@@ -32,7 +32,7 @@ const Footer = () => {
     </div> 
 
     <div className='border-t border-gray-700 py-4 mt-10 text-center text-gray-500'>
-   Copyright 2024 © GreatStack. All Right Reserved.
+   Copyright 2025 © Newness WebCraft. All Right Reserved.
       </div> 
     </div>
   )

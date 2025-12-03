@@ -15,7 +15,7 @@ whileInView={{opacity:1, x:0}}
 <h1 className='text-2xl sm:text-4xl font-bold mb-2'> About <span className='underline underline-offset-4 decoration-1 under font-light'>Our brand</span></h1>
 <p className='text-gray-500 max-w-80 text-center mb-8'>Passionate About Properties, Dedicated to Your Vision </p>
    <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20'>
-    <img src={assets.brand_img} alt="" className='w-full am:w-1/2 max-w-lg'/>
+    <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 max-w-lg'/>
     <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
       <div className='grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28'>
        <div>
@@ -38,9 +38,8 @@ whileInView={{opacity:1, x:0}}
         <p>Ongoing Projects</p>
         </div> 
         </div> 
-        <p className='my10 max-w-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          A earum consequuntur praesentium officiis magnam. Eius laudantium aperiam dolorum unde mollitia at, tenetur veritatis. Perferendis autem aliquid voluptatibus tempora et natus obcaecati, odio debitis, numquam accusamus 
-          quas vero aspernatur saepe at dolor laudantium expedita distinctio temporibus.</p> 
+        <p className='my-10 max-w-lg'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+           took a galley of type and scrambled it to make a type specimen book.</p> 
     <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn more</button>
     </div>
    </div>
